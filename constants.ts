@@ -24,7 +24,7 @@ export async function fetchAccounts(): Promise<Account[]> {
     return mockAccounts;
   }
 }
-
+  import { supabase } from './lib/supabase';
 export async function fetchCategories(): Promise<Category[]> {
   try {
     const { data, error } = await supabase
