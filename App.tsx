@@ -7,7 +7,7 @@ import TransactionsPage from './pages/TransactionsPage';
 import ReportsPage from './pages/ReportsPage';
 import SettingsPage from './pages/SettingsPage';
 import { fetchTransactions, fetchAccounts, fetchCategories, addTransactionToDB, mockTransactions, mockAccounts, mockCategories } from './constants';
-import { supabase } from './src/lib/supabase';
+import { supabase } from './lib/supabase';
 import type { Transaction, Account, Category } from './types';
 import { Page } from './types';
 
